@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+    border: 10px groove black;
+    padding: 40PX;
+    background-color: aquamarine; 
+    
+
+}
+.wrapper{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.card-wrapper{
+    width: 220px;
+    height: 250px;
+    border: 2px outset black;
+    padding: 10px;
+    margin: 5px;
+}
+.imagesection{
+    text-align: center;
+}
+.content{
+    width: 400px !important;
+    height: 180px !important;
+    display:flex;
+flex-direction: row;
+
+}
+.sec{
+    padding-left:20px !important;
+}
+.reverse{
+    flex-direction: row-reverse !important;
+}
+.static{
+    position: static;
+    border: 2px solid black;
+}
+.relative{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 2px solid black;
+}
+.fixed{
+    position: fixed;
+    top: 500px;
+    right: 200px;
+    border: 2px  solid blueviolet   ;
+}
+.fixed-2{
+    position: fixed;
+    top:370px;
+    right: 300px;
+    border: 2px solid yellowgreen;
+}
+.absolute{
+    position: absolute;
+    left: 10px;
+    border: 3px solid yellow;
+}
